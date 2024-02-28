@@ -45,59 +45,314 @@ const MainHeader = () => {
         >
           super six final form
         </Box>
-        <Box width="100%" marginTop={30}>
+        <Box marginTop={10}>
+          <Flex justifyContent={"space-between"} border={"1px solid white"}>
+            <Box padding={"5px 10px"} display={"flex"}>
+              <Box padding={"5px 10px"}>Date & Day:</Box>
+              <Box
+                padding={"5px 10px"}
+                width={"140px"}
+                height={"15px"}
+                borderBottom={"2px dashed white"}
+                fontSize={14}
+              >
+                02/28/2024, Sunday
+              </Box>
+            </Box>
+
+            <Box padding={"5px 10px"} display={"flex"}>
+              <Box padding={"5px 10px"}>Weather Report:</Box>
+              <Box
+                padding={"5px 10px"}
+                width={"250px"}
+                height={"15px"}
+                borderBottom={"2px dashed white"}
+                fontSize={14}
+              >
+                Sunny, 12°C , Kathmandu
+              </Box>
+            </Box>
+
+            <Box padding={"5px 10px"} display={"flex"}>
+              <Box padding={"5px 10px"}>Time of Release:</Box>
+              <Box
+                padding={"5px 10px"}
+                width={"80px"}
+                height={"15px"}
+                borderBottom={"2px dashed white"}
+                fontSize={14}
+              >
+                05:00 AM
+              </Box>
+            </Box>
+          </Flex>
+        </Box>
+        <Box width="100%" marginTop={10} fontSize={"1rem"}>
           <TableContainer width={"100%"}>
             <Table
               size="lg"
               width={"100%"}
-              variant={"striped"}
-              colorScheme={"white"}
+              colorScheme={"orange"}
+              variant={"simple"}
+              border={"1px solid white"}
             >
               <Thead fontWeight={"bold"}>
-                <Tr>
-                  <Th>क्र.म</Th>
+                <Tr border={"1px solid white"}>
+                  <Th>क्र.म.</Th>
                   <Th width="20rem">परेवाको नाम</Th>
                   <Th>लिङ्ग</Th>
                   <Th>अवतरण समय</Th>
                   <Th>घण्टा</Th>
                   <Th>मिनेट</Th>
                   <Th>सदर परेवा</Th>
-                  <Th>बदर परेवा</Th>
+                  <Th>टिप्पणी</Th>
                 </Tr>
               </Thead>
               <Tbody>
                 <Tr>
-                  <Td>1</Td>
+                  <Td>१</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
                   <Td> 10:00</Td>
-                  <Td> 02</Td>
-                  <Td> 16</Td>
-                  <Td> </Td>
-                  <Td> Yes</Td>
+                  <Td> 05</Td>
+                  <Td> 00</Td>
+                  <Td> होइन</Td>
+                  <Td> बाजले लग्यो</Td>
                 </Tr>
                 <Tr>
-                  <Td>2</Td>
+                  <Td>२</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
                   <Td> 10:00</Td>
-                  <Td> 02</Td>
-                  <Td> 16</Td>
-                  <Td> Yes</Td>
+                  <Td> 05</Td>
+                  <Td> 00</Td>
+                  <Td> हो</Td>
+                  <Td> मज्जाले उड्यो</Td>
                 </Tr>
                 <Tr>
-                  <Td>3</Td>
+                  <Td>३</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
                   <Td> 10:00</Td>
-                  <Td> 02</Td>
-                  <Td> 16</Td>
-                  <Td> Yes</Td>
+                  <Td> 05</Td>
+                  <Td> 00</Td>
+                  <Td> हो</Td>
+                  <Td> मज्जाले उड्यो</Td>
+                </Tr>
+                <Tr>
+                  <Td>४</Td>
+                  <Td>कास्नी</Td>
+                  <Td>M</Td>
+                  <Td> 10:00</Td>
+                  <Td> 05</Td>
+                  <Td> 00</Td>
+                  <Td> हो</Td>
+                  <Td> मज्जाले उड्यो</Td>
                 </Tr>
               </Tbody>
-              <Tfoot></Tfoot>
+              <Tfoot>
+                <Tr>
+                  <Td></Td>
+                  <Td>Final Score</Td>
+                  <Td></Td>
+                  <Td> </Td>
+                  <Td> 15</Td>
+                  <Td> 00</Td>
+                  <Td> 3</Td>
+                  <Td> मज्जाले उड्यो</Td>
+                </Tr>
+              </Tfoot>
             </Table>
           </TableContainer>
+          <Box border={"1px solid white"} padding={10} marginTop={20}>
+            <Box
+              display={"flex"}
+              justifyContent={"space-between"}
+              marginTop={20}
+            >
+              <Box padding={"5px 10px"} display={"flex"}>
+                <Box padding={"5px 10px"}>प्रतियोगिको नाम</Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"250px"}
+                  height={"15px"}
+                  borderBottom={"2px dashed white"}
+                  fontSize={14}
+                  fontWeight={"bold"}
+                >
+                  प्रदिप कार्कि
+                </Box>
+              </Box>
+              <Box padding={"5px 10px"} display={"flex"}>
+                <Box padding={"5px 10px"}>ठेगाना</Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"250px"}
+                  height={"15px"}
+                  borderBottom={"2px dashed white"}
+                  fontSize={14}
+                  fontWeight={"bold"}
+                >
+                  थानकोट
+                </Box>
+              </Box>
+            </Box>
+            <Box
+              display={"flex"}
+              justifyContent={"space-between"}
+              marginTop={20}
+            >
+              <Box padding={"5px 10px"} display={"flex"}>
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  textAlign={"start"}
+                >
+                  <Box padding={"5px 10px"}>परेवा अवतरण गर्ने अन्य दुई घर</Box>
+                  <Box
+                    padding={"5px 10px"}
+                    display={"flex"}
+                    flexDirection={"column"}
+                  >
+                    <Box display={"flex"}>
+                      <Box padding={"5px 10px"}>१.</Box>
+                      <Box
+                        padding={"5px 10px"}
+                        width={"250px"}
+                        height={"15px"}
+                        borderBottom={"2px dashed white"}
+                        fontSize={14}
+                        fontWeight={"bold"}
+                      >
+                        पूर्व पट्टिको स्कूल
+                      </Box>
+                    </Box>
+                    <Box display={"flex"}>
+                      <Box padding={"5px 10px"}>२.</Box>
+                      <Box
+                        padding={"5px 10px"}
+                        width={"250px"}
+                        height={"15px"}
+                        borderBottom={"2px dashed white"}
+                        fontSize={14}
+                        fontWeight={"bold"}
+                      >
+                        पूर्व पट्टिको स्कूल
+                      </Box>
+                    </Box>
+                  </Box>
+
+                  <Box padding={"5px 10px"} display={"flex"}>
+                    <Box padding={"5px 10px"}>परेवामा लगाएको रङ्ग</Box>
+                    <Box
+                      padding={"5px 10px"}
+                      width={"150px"}
+                      height={"15px"}
+                      borderBottom={"2px dashed white"}
+                      fontSize={14}
+                      fontWeight={"bold"}
+                      textAlign={"center"}
+                    >
+                      गुलाबी
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+              <Box padding={"5px 10px"} display={"flex"}>
+                <Box padding={"5px 10px"}>ड्रपर परेवा छोडेको समय: </Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"250px"}
+                  height={"15px"}
+                  borderBottom={"2px dashed white"}
+                  fontSize={14}
+                  fontWeight={"bold"}
+                >
+                  १०:०० AM
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            display={"flex"}
+            justifyContent={"space-between"}
+            marginTop={20}
+            border={"1px solid white"}
+            padding={10}
+          >
+            <Box>
+              <Box padding={"5px 10px"}>निर्णायकको नाम र दस्तखत</Box>
+              <Box display={"flex"}>
+                <Box padding={"5px 10px"}>१.</Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"250px"}
+                  height={"15px"}
+                  borderBottom={"2px dashed white"}
+                  fontSize={14}
+                  fontWeight={"bold"}
+                >
+                  रत्न काजी महर्जन
+                </Box>
+              </Box>
+              <Box display={"flex"}>
+                <Box padding={"5px 10px"}>२.</Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"250px"}
+                  height={"15px"}
+                  borderBottom={"2px dashed white"}
+                  fontSize={14}
+                  fontWeight={"bold"}
+                >
+                  सन्जिब कपुर श्रेष्ठ
+                </Box>
+              </Box>
+              <Box display={"flex"}>
+                <Box padding={"5px 10px"}>१.</Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"250px"}
+                  height={"15px"}
+                  borderBottom={"2px dashed white"}
+                  fontSize={14}
+                  fontWeight={"bold"}
+                >
+                  मंगल तामाङ्ग
+                </Box>
+              </Box>
+              <Box
+                display={"flex"}
+                flexDirection={"column"}
+                alignItems={"start"}
+              >
+                <Box padding={"5px 10px"}>प्रतियोगीको दस्तखत</Box>
+                <Box
+                  padding={"5px 10px"}
+                  width={"10rem"}
+                  height={"1.5rem"}
+                  border={"1px solid white"}
+                ></Box>
+              </Box>
+            </Box>
+            <Box display={"flex"} flexDirection={"column"}>
+              <Box padding={"5px 10px"}>कैफियत</Box>
+              <Box
+                padding={"5px 10px"}
+                width={"14rem"}
+                height={"10rem"}
+                border={"1px solid white"}
+              ></Box>
+            </Box>
+          </Box>
+
+          <Box
+            display={"flex"}
+            justifyContent={"space-between"}
+            marginTop={20}
+            alignContent={"middle"}
+            alignItems={"center"}
+          ></Box>
         </Box>
       </Box>
     </>
