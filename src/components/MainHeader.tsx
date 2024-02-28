@@ -13,6 +13,7 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import logo from "../assets/logo.svg";
+import flightImages from "../assets/flightImages.jpg";
 
 const MainHeader = () => {
   return (
@@ -56,7 +57,7 @@ const MainHeader = () => {
                 borderBottom={"2px dashed white"}
                 fontSize={14}
               >
-                02/28/2024, Sunday
+                02/28/2024, Wednesday
               </Box>
             </Box>
 
@@ -69,7 +70,7 @@ const MainHeader = () => {
                 borderBottom={"2px dashed white"}
                 fontSize={14}
               >
-                Sunny, 12°C , Kathmandu
+                Sunny, 20°C , Kathmandu
               </Box>
             </Box>
 
@@ -82,7 +83,7 @@ const MainHeader = () => {
                 borderBottom={"2px dashed white"}
                 fontSize={14}
               >
-                05:00 AM
+                09:00 AM
               </Box>
             </Box>
           </Flex>
@@ -97,7 +98,7 @@ const MainHeader = () => {
               border={"1px solid white"}
             >
               <Thead fontWeight={"bold"}>
-                <Tr border={"1px solid white"}>
+                <Tr>
                   <Th>क्र.म.</Th>
                   <Th width="20rem">परेवाको नाम</Th>
                   <Th>लिङ्ग</Th>
@@ -105,7 +106,7 @@ const MainHeader = () => {
                   <Th>घण्टा</Th>
                   <Th>मिनेट</Th>
                   <Th>सदर परेवा</Th>
-                  <Th>टिप्पणी</Th>
+                  <Th width="20rem">टिप्पणी</Th>
                 </Tr>
               </Thead>
               <Tbody>
@@ -113,8 +114,8 @@ const MainHeader = () => {
                   <Td>१</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
-                  <Td> 10:00</Td>
-                  <Td> 05</Td>
+                  <Td> 06:30</Td>
+                  <Td> 09</Td>
                   <Td> 00</Td>
                   <Td> होइन</Td>
                   <Td> बाजले लग्यो</Td>
@@ -123,8 +124,8 @@ const MainHeader = () => {
                   <Td>२</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
-                  <Td> 10:00</Td>
-                  <Td> 05</Td>
+                  <Td> 06:00</Td>
+                  <Td> 09</Td>
                   <Td> 00</Td>
                   <Td> हो</Td>
                   <Td> मज्जाले उड्यो</Td>
@@ -133,8 +134,8 @@ const MainHeader = () => {
                   <Td>३</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
-                  <Td> 10:00</Td>
-                  <Td> 05</Td>
+                  <Td> 06:00</Td>
+                  <Td> 09</Td>
                   <Td> 00</Td>
                   <Td> हो</Td>
                   <Td> मज्जाले उड्यो</Td>
@@ -143,8 +144,8 @@ const MainHeader = () => {
                   <Td>४</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
-                  <Td> 10:00</Td>
-                  <Td> 05</Td>
+                  <Td> 06:00</Td>
+                  <Td> 09</Td>
                   <Td> 00</Td>
                   <Td> हो</Td>
                   <Td> मज्जाले उड्यो</Td>
@@ -156,7 +157,7 @@ const MainHeader = () => {
                   <Td>Final Score</Td>
                   <Td></Td>
                   <Td> </Td>
-                  <Td> 15</Td>
+                  <Td> 27</Td>
                   <Td> 00</Td>
                   <Td> 3</Td>
                   <Td> मज्जाले उड्यो</Td>
@@ -268,7 +269,7 @@ const MainHeader = () => {
                   fontSize={14}
                   fontWeight={"bold"}
                 >
-                  १०:०० AM
+                  ०५:३० PM
                 </Box>
               </Box>
             </Box>
@@ -353,6 +354,13 @@ const MainHeader = () => {
             alignContent={"middle"}
             alignItems={"center"}
           ></Box>
+
+          <Image
+            width={"100%"}
+            height={"500px"}
+            src={flightImages}
+            objectFit={"cover"}
+          />
         </Box>
       </Box>
     </>
