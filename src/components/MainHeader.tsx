@@ -40,7 +40,7 @@ const MainHeader = () => {
           textTransform={"uppercase"}
           backgroundColor={"gray"}
           color={"white"}
-          padding={"10px 15px"}
+          padding={"10px 1rem"}
           fontWeight={"bold"}
           fontSize={"2rem"}
         >
@@ -52,10 +52,11 @@ const MainHeader = () => {
               <Box padding={"5px 10px"}>Date & Day:</Box>
               <Box
                 padding={"5px 10px"}
-                width={"140px"}
-                height={"15px"}
+                width={"11rem"}
+                height={"1rem"}
                 borderBottom={"2px dashed white"}
                 fontSize={14}
+                textAlign={"start"}
               >
                 02/28/2024, Wednesday
               </Box>
@@ -65,8 +66,8 @@ const MainHeader = () => {
               <Box padding={"5px 10px"}>Weather Report:</Box>
               <Box
                 padding={"5px 10px"}
-                width={"250px"}
-                height={"15px"}
+                width={"16rem"}
+                height={"1rem"}
                 borderBottom={"2px dashed white"}
                 fontSize={14}
               >
@@ -78,8 +79,8 @@ const MainHeader = () => {
               <Box padding={"5px 10px"}>Time of Release:</Box>
               <Box
                 padding={"5px 10px"}
-                width={"80px"}
-                height={"15px"}
+                width={"5rem"}
+                height={"1rem"}
                 borderBottom={"2px dashed white"}
                 fontSize={14}
               >
@@ -114,7 +115,7 @@ const MainHeader = () => {
                   <Td>१</Td>
                   <Td>कास्नी</Td>
                   <Td>M</Td>
-                  <Td> 06:30</Td>
+                  <Td> -</Td>
                   <Td> 09</Td>
                   <Td> 00</Td>
                   <Td> होइन</Td>
@@ -175,8 +176,8 @@ const MainHeader = () => {
                 <Box padding={"5px 10px"}>प्रतियोगिको नाम</Box>
                 <Box
                   padding={"5px 10px"}
-                  width={"250px"}
-                  height={"15px"}
+                  width={"16rem"}
+                  height={"1rem"}
                   borderBottom={"2px dashed white"}
                   fontSize={14}
                   fontWeight={"bold"}
@@ -188,8 +189,8 @@ const MainHeader = () => {
                 <Box padding={"5px 10px"}>ठेगाना</Box>
                 <Box
                   padding={"5px 10px"}
-                  width={"250px"}
-                  height={"15px"}
+                  width={"16rem"}
+                  height={"1rem"}
                   borderBottom={"2px dashed white"}
                   fontSize={14}
                   fontWeight={"bold"}
@@ -219,8 +220,8 @@ const MainHeader = () => {
                       <Box padding={"5px 10px"}>१.</Box>
                       <Box
                         padding={"5px 10px"}
-                        width={"250px"}
-                        height={"15px"}
+                        width={"16rem"}
+                        height={"1rem"}
                         borderBottom={"2px dashed white"}
                         fontSize={14}
                         fontWeight={"bold"}
@@ -232,8 +233,8 @@ const MainHeader = () => {
                       <Box padding={"5px 10px"}>२.</Box>
                       <Box
                         padding={"5px 10px"}
-                        width={"250px"}
-                        height={"15px"}
+                        width={"16rem"}
+                        height={"1rem"}
                         borderBottom={"2px dashed white"}
                         fontSize={14}
                         fontWeight={"bold"}
@@ -248,7 +249,7 @@ const MainHeader = () => {
                     <Box
                       padding={"5px 10px"}
                       width={"150px"}
-                      height={"15px"}
+                      height={"1rem"}
                       borderBottom={"2px dashed white"}
                       fontSize={14}
                       fontWeight={"bold"}
@@ -263,8 +264,8 @@ const MainHeader = () => {
                 <Box padding={"5px 10px"}>ड्रपर परेवा छोडेको समय: </Box>
                 <Box
                   padding={"5px 10px"}
-                  width={"250px"}
-                  height={"15px"}
+                  width={"16rem"}
+                  height={"1rem"}
                   borderBottom={"2px dashed white"}
                   fontSize={14}
                   fontWeight={"bold"}
@@ -287,8 +288,8 @@ const MainHeader = () => {
                 <Box padding={"5px 10px"}>१.</Box>
                 <Box
                   padding={"5px 10px"}
-                  width={"250px"}
-                  height={"15px"}
+                  width={"16rem"}
+                  height={"1rem"}
                   borderBottom={"2px dashed white"}
                   fontSize={14}
                   fontWeight={"bold"}
@@ -300,8 +301,8 @@ const MainHeader = () => {
                 <Box padding={"5px 10px"}>२.</Box>
                 <Box
                   padding={"5px 10px"}
-                  width={"250px"}
-                  height={"15px"}
+                  width={"16rem"}
+                  height={"1rem"}
                   borderBottom={"2px dashed white"}
                   fontSize={14}
                   fontWeight={"bold"}
@@ -313,8 +314,8 @@ const MainHeader = () => {
                 <Box padding={"5px 10px"}>१.</Box>
                 <Box
                   padding={"5px 10px"}
-                  width={"250px"}
-                  height={"15px"}
+                  width={"16rem"}
+                  height={"1rem"}
                   borderBottom={"2px dashed white"}
                   fontSize={14}
                   fontWeight={"bold"}
