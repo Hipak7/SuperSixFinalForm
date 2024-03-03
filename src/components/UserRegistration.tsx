@@ -93,7 +93,6 @@ const UserRegistration = () => {
                 <option value="others">Others</option>
               </Select>
             </Flex>
-            {/* Date of Birth */}
             <Flex gap={10} alignItems={"center"}>
               <Box>Date of Birth</Box>
               <Input
