@@ -26,6 +26,8 @@ const DivPigeon: React.FC<DivPigeonProps> = ({
               height={30}
               fontSize={20}
               padding={10}
+              border={"1px solid white"}
+              outline={"none"}
             ></Input>
           </Flex>
           <Flex gap={_gap2} alignItems={"center"}>
@@ -35,6 +37,8 @@ const DivPigeon: React.FC<DivPigeonProps> = ({
               height={30}
               fontSize={20}
               padding={10}
+              border={"1px solid white"}
+              outline={"none"}
             ></Input>
           </Flex>
         </Flex>

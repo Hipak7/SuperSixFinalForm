@@ -29,17 +29,19 @@ export const Registration = () => {
           _name1="Ring Number"
           _name2="Second Ring Number"
         />
-        <Flex justifyContent={"space-around"} marginTop={20} marginBottom={20}>
+        <Flex justifyContent={"space-around"} marginTop={20}>
           <Flex gap={10}>
-            <Box fontSize={20}>Gender</Box>
+            <Box fontSize={20}>Gender:</Box>
             <Select
               placeholder="Select Gender"
-              height={30}
+              height={40}
               fontSize={20}
               variant={"outline"}
               size={"lg"}
               iconSize="0rem"
               marginBottom={"1.5rem"}
+              border={"1px solid white"}
+              outline={"none"}
             >
               <option value="male">Male</option>
               <option value="female">Female</option>
@@ -47,15 +49,17 @@ export const Registration = () => {
             </Select>
           </Flex>
           <Flex gap={10}>
-            <Box fontSize={20}>Status</Box>
+            <Box fontSize={20}>Status:</Box>
             <Select
               placeholder="Select Status"
-              height={30}
+              height={40}
               fontSize={20}
               variant={"outline"}
               size={"lg"}
               iconSize="0rem"
               marginBottom={"1.5rem"}
+              border={"1px solid white"}
+              outline={"none"}
             >
               <option value="male">Training</option>
               <option value="female">Breeding</option>
@@ -68,9 +72,22 @@ export const Registration = () => {
             </Select>
           </Flex>
         </Flex>
-        <Flex gap={10} alignItems={"center"} fontSize={20} marginBottom={20}>
+        <Flex
+          gap={20}
+          alignItems={"center"}
+          fontSize={20}
+          marginBottom={20}
+          padding={10}
+        >
           <Box>Color</Box>
-          <Input width={"20rem"} height={30} fontSize={20} padding={10}></Input>
+          <Input
+            width={"20rem"}
+            height={30}
+            fontSize={20}
+            padding={10}
+            border={"1px solid white"}
+            outline={"none"}
+          ></Input>
         </Flex>
         <Flex justifyContent={"space-evenly"} marginBottom={20}>
           <Box>
@@ -97,6 +114,7 @@ export const Registration = () => {
               width={"20rem"}
               src={flightImage}
               objectFit={"contain"}
+              outline={"none"}
             />
           </Box>
           <Box>
@@ -110,6 +128,7 @@ export const Registration = () => {
               width={"20rem"}
               src={flightImage}
               objectFit={"contain"}
+              outline={"none"}
             />
           </Box>
         </Flex>
@@ -147,7 +166,14 @@ export const Registration = () => {
         </Flex>
         <Flex gap={10} fontSize={20} marginBottom={20} alignItems={"center"}>
           <Box>Name or Alias</Box>
-          <Input width={"40rem"} height={30} padding={10} fontSize={20}></Input>
+          <Input
+            width={"40rem"}
+            height={30}
+            padding={10}
+            fontSize={20}
+            border={"1px solid white"}
+            outline={"none"}
+          ></Input>
         </Flex>
         <Flex flexDirection={"column"}>
           <Box
@@ -159,14 +185,21 @@ export const Registration = () => {
             Remarks
           </Box>
           <Textarea
-            height={"10rem"}
+            outline={"none"}
+            height={"scroll"}
+            minHeight={"10rem"}
             fontSize={20}
             fontFamily={"inherit"}
-            padding={10}
+            padding={"1rem"}
+            border={"1px solid white"}
           />
         </Flex>
 
-        <Button padding={20} fontSize={20} bgColor={"#808080"} marginTop={20}
+        <Button
+          padding={"0.8rem 2rem"}
+          fontSize={20}
+          bgColor={"#808080"}
+          marginTop={20}
         >
           Submit
         </Button>
