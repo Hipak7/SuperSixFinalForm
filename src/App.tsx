@@ -1,13 +1,12 @@
 import "./App.css";
 import DivPigeon from "./components/DivPigeon";
 import MainHeader from "./components/MainHeader";
-import { Picture } from "./components/Picture";
-import { Registration } from "./components/Registration";
+import UserRegistration from "./components/UserRegistration";
 
 function App() {
   return (
     <>
-      <Registration />
+      <UserRegistration />
     </>
   );
 }
