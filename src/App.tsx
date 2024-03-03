@@ -1,14 +1,15 @@
-import './App.css'
-import MainHeader from './components/MainHeader'
-import { Picture } from './components/Picture'
+import "./App.css";
+import DivPigeon from "./components/DivPigeon";
+import MainHeader from "./components/MainHeader";
+import { Picture } from "./components/Picture";
+import { Registration } from "./components/Registration";
 
 function App() {
-
   return (
     <>
-    <Picture />
+      <Registration />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
